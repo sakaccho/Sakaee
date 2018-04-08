@@ -1,0 +1,24 @@
+{
+  "name": "sakaeen",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakaccho/Sakaeen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sakaccho/Sakaeen/issues"
+  },
+  "homepage": "https://github.com/sakaccho/Sakaeen#readme",
+  "private": true,
+  "dependencies": {
+    "express": "^4.16.3",
+    "lirc_node": "0.0.4"
+  }
+}
