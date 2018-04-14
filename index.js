@@ -17,4 +17,10 @@ app.get('/aircon/off', function (req, res) {
   });
 })
 
+app.get('/display/control', function (req, res) {
+  lirc_node.irsend.send_once("Dsiplay", "Control", ()=> {
+    res.send('ディスプレイの電源をON/OFF');
+  });
+})
+
 app.listen(3000);
